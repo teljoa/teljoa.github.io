@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+               cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto;
+            }
+            input[type=text]{
+                width: 100%;
+                padding: 10px 20px;
+                margin: 8px 0;
+                box-sizing: border-box;
+            }
+            input:focus{
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php" method="get" >
+            <fieldset>
+                <legend>Datos personales</legend>
+                <p>Nombre</p>
+                <input type="text">
+                <p>Apellidos</p>
+                <input type="text">
+                <p>fecha de nacimiento</p>
+                <input type="datetime-local">
+                <p>sexo</p>
+                <input type="radio" value="h">Hombre
+                <input type="radio" value="m">Mujer
+                <p>pais de origen</p>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>Redes sociales</legend>
+                <p>Redes sociales donde estas registrado</p>
+                <select name="redes">
+                    <option>Home</option>
+                    <option>Facebok</option>
+                    <option>...</option> 
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Valoraciones</legend>
+                <p>Mejor generacion</p>
+                <input type="range" min="1" max="8">
+                <p>Mejor elemento(cada color se refire a un elemento)</p>
+                <input type="color">
+            </fieldset>
+            <fieldset>
+                <legend>Equipo</legend>
+                <p>Sube una imagen con mejor equipo con tu generacion faboritad</p>
+                <input type="file">
+            </fieldset>
+	        <input type="submit" value="Enviar formulario">
+        </form>
+    </body>
+</html>

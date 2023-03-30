@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .icono {
+            list-style: none;
+            padding-left: 0;
+            }
+            .icono li{
+                position: relative;
+                padding-left: 20px;
+            }
+            .icono li:before{
+                content: '';
+                width:20px;
+                height:20px;
+                position: absolute;
+                background-image: url('./small-pokeball-icon-4.png');
+                background-size: cover;
+                background-position: center;
+                left: 0;
+                top:50%;
+                transform: translateY(-50%);
+            }
+            body{cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto;}
+        </style>
+    </head>
+    <body>
+        <ul class="icono">
+            <li><a href="./inicio.html" target="contenido">Pagina inicial</a></li>
+            <li><a href="https://www.pokemon.com/es/pokedex" target="_blank">Pokedex</a></li>
+            <li><a href="./Tabla de tipos.html" target="contenido">Tabla de tipos</a></li>
+            <li><a href="./formulario.html" target="contenido">Formulario de reguistro</a></li>
+            <li><a href="https://cajunavenger.github.io/" target="_blank">Tabla comparatiba</a></li>
+        </ul>
+    </body>
+</html>
